@@ -1,0 +1,27 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.testassignment:crawler:jar:1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 14, column 21
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ---------------------< com.testassignment:crawler >---------------------
+[INFO] Building crawler 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ crawler ---
+[INFO] com.testassignment:crawler:jar:1.0-SNAPSHOT
+[INFO] +- org.jsoup:jsoup:jar:1.11.3:compile
+[INFO] +- org.slf4j:slf4j-api:jar:1.7.13:compile
+[INFO] +- org.slf4j:slf4j-jdk14:jar:1.7.13:compile
+[INFO] \- org.slf4j:slf4j-log4j12:jar:1.7.13:compile
+[INFO]    \- log4j:log4j:jar:1.2.17:compile
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.148 s
+[INFO] Finished at: 2019-11-29T23:39:40+05:30
+[INFO] ------------------------------------------------------------------------
